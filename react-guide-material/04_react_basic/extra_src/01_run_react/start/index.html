@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-   
-</head>
-<body>
-    
-</body>
+  <head>
+    <script src="/react-guide-material/libs/react.development.js"></script>
+    <script src="/react-guide-material/libs/react-dom.development.js"></script>
+    <script src="/react-guide-material/libs/babel-standalone.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/babel">
+      const appEl = document.querySelector("#app");
+      const root = ReactDOM.createRoot(appEl);
+      root.render(
+        <div>
+          <h1>こんにちは</h1>
+          <h2>こんにちは</h2>
+          <h3>こんにちは</h3>
+        </div>
+      );
+
+      // ReactDOM.render(<h1>こんにちは</h1>, appEl);
+    </script>
+  </body>
 </html>
