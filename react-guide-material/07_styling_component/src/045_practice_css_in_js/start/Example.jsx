@@ -37,6 +37,7 @@ const Example = () => {
       <SecondButton>ボタン2</SecondButton>
       <ThirdButton>ボタン3</ThirdButton>
       <ThirdButton dark>ボタン3</ThirdButton>
+      {/* <ThirdButton dark={true}>ボタン3</ThirdButton> ←上記はこう書いているイメージ */}
     </>
   );
 };
